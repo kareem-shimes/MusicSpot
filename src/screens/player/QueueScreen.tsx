@@ -78,7 +78,6 @@ export const QueueScreen = ({ navigation, route }: Props) => {
             </Text>
           )}
           contentContainerStyle={{ paddingHorizontal: 24, paddingTop: 16, paddingBottom: 140 }}
-          estimatedItemSize={72}
         />
       </View>
     </SafeAreaView>

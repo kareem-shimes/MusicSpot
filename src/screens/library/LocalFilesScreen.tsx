@@ -87,7 +87,6 @@ export const LocalFilesScreen = ({ navigation, route }: Props) => {
         <FlashList
           data={localTracks}
           keyExtractor={(item) => item.id}
-          estimatedItemSize={72}
           contentContainerStyle={{ paddingHorizontal: 24, paddingTop: 8, paddingBottom: 200 }}
           ListHeaderComponent={
             <>
